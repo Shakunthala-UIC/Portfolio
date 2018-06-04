@@ -1,0 +1,171 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+body {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	padding-top: 54px;
+	background-color: #eaeaea;
+	font-size: 24px;
+	color: #000
+}
+
+@media ( min-width :992px) {
+	body {
+		padding-top: 0;
+		padding-left: 17rem
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Saira Extra Condensed', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343a40
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 5.5rem
+}
+
+h2 {
+	font-size: 3.5rem
+}
+
+.subheading {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Saira Extra Condensed', serif;
+	font-size: 1.9rem
+}
+
+.list-social-icons a {
+	color: #495057
+}
+
+.list-social-icons a:hover {
+	color: #005392
+}
+
+.list-social-icons a .fa-lg {
+	font-size: 1.75rem
+}
+
+.list-icons {
+	font-size: 3rem
+}
+
+.list-icons .list-inline-item i:hover {
+	color:#005392
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+	font-weight: 600;
+	text-transform: uppercase
+}
+
+@media ( min-width :992px) {
+	#sideNav {
+		text-align: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		width: 17rem;
+		height: 100vh
+	}
+	#sideNav .navbar-brand {
+		display: flex;
+		margin: auto auto 0;
+		padding: 0.1rem
+	}
+	#sideNav .navbar-brand .img-profile {
+		max-width: 20rem;
+		max-height: 20rem;
+		border: .5rem solid rgba(255, 255, 255, .2)
+	}
+	#sideNav .navbar-collapse {
+		display: flex;
+		align-items: flex-start;
+		flex-grow: 0;
+		width: 100%;
+		margin-bottom: auto
+	}
+	#sideNav .navbar-collapse .navbar-nav {
+		flex-direction: column;
+		width: 100%
+	}
+	#sideNav .navbar-collapse .navbar-nav .nav-item {
+		display: block
+	}
+	#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+		display: block
+	}
+}
+
+section.resume-section {
+	border-bottom: 1px solid #dee2e6;
+	padding-top: 5rem !important;
+	padding-bottom: 5rem !important
+}
+
+section.resume-section .resume-item .resume-date {
+	min-width: none
+}
+
+@media ( min-width :768px) {
+	section.resume-section {
+		min-height: 100vh
+	}
+	section.resume-section .resume-item .resume-date {
+		min-width: 18rem
+	}
+}
+
+@media ( min-width :992px) {
+	section.resume-section {
+		padding-top: 3rem !important;
+		padding-bottom: 3rem !important
+	}
+}
+
+.bg-primary {
+	background-color: #005392!important
+}
+
+.text-primary {
+	color: #005392!important
+}
+
+a {
+	color: #005392
+}
+
+a:active, a:focus, a:hover {
+	color: #006666
+}
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 10px 24px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */
+.default:hover {background: #ddd;}
+Try it Yourself »
